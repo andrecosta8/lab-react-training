@@ -1,3 +1,3 @@
-export function Image(props){
-    return(<div className="img">{props.img}</div>)
+export function Picture(props){
+    return(<img className="img" src={props.picture}/>)
 }
